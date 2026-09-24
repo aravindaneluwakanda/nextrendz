@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nex Trendz | Tech trends, first</title>
+<meta name="description" content="Nex Trendz shares the latest tech trends and finds. Follow us on TikTok or message us on WhatsApp.">
+<meta property="og:title" content="Nex Trendz">
+<meta property="og:description" content="The latest tech trends, shared on TikTok.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="logo.jpg">
+<link rel="icon" href="logo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy: #161E23;
+    --navy-2: #1F2A31;
+    --blue: #0B8DE8;
+    --blue-dark: #0A6FBB;
+    --white: #F1F1F1;
+    --muted: #A9B7C0;
+    --wa: #25D366;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0; background: var(--navy); color: var(--white);
+    font: 500 1.05rem/1.65 "Montserrat", system-ui, sans-serif;
+  }
+  h1, h2, h3 { line-height: 1.1; margin: 0; font-weight: 800; }
+  a { color: inherit; }
+  :focus-visible { outline: 3px solid var(--blue); outline-offset: 3px; }
+  .wrap { max-width: 66rem; margin: 0 auto; padding: 0 1.25rem; }
+
+  header { padding: 1rem 0; }
+  header .wrap { display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
+  .brand { display: flex; align-items: center; gap: .75rem; text-decoration: none; font-weight: 800; letter-spacing: .04em; }
+  .brand img { width: 46px; height: 46px; border-radius: 50%; }
+  nav a { margin-left: 1.25rem; text-decoration: none; font-weight: 700; font-size: .95rem; }
+  nav a:hover { color: var(--blue); }
+
+  .hero { padding: 4rem 0 5rem; display: grid; gap: 2.5rem; align-items: center; grid-template-columns: 1.4fr 1fr; }
+  .hero h1 { font-size: clamp(2.6rem, 8vw, 5.5rem); letter-spacing: -0.03em; }
+  .hero h1 em { font-style: normal; color: var(--blue); }
+  .hero p { max-width: 32rem; font-size: 1.15rem; color: var(--muted); margin: 1.5rem 0 2rem; }
+  .hero img { width: 100%; max-width: 22rem; justify-self: center; border-radius: 50%; }
+  @media (max-width: 720px) { .hero { grid-template-columns: 1fr; } .hero img { max-width: 14rem; order: -1; } }
+
+  .btn {
+    display: inline-flex; align-items: center; gap: .5rem;
+    padding: .9rem 1.6rem; border-radius: .6rem; border: 0; cursor: pointer;
+    font: 700 1rem "Montserrat", sans-serif; text-decoration: none; margin: 0 .6rem .6rem 0;
+    transition: transform .15s ease;
+  }
+  .btn:hover { transform: translateY(-2px); }
+  .btn.wa { background: var(--wa); color: #0b2a17; }
+  .btn.blue { background: var(--blue); color: #fff; }
+  .btn.ghost { border: 2px solid var(--white); background: transparent; color: var(--white); }
+
+  section { padding: 3.5rem 0; }
+  section h2 { font-size: clamp(1.9rem, 5vw, 2.8rem); margin-bottom: 1.5rem; }
+  .light { background: var(--white); color: var(--navy); }
+  .light .muted { color: #48565F; }
+
+  .grid { display: grid; gap: 1.5rem; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); }
+  .grid > div { border-left: 5px solid var(--blue); padding-left: 1rem; }
+  .grid h3 { font-size: 1.25rem; margin-bottom: .5rem; }
+  .grid p { margin: 0; color: #48565F; }
+
+  .about p { max-width: 40rem; color: var(--muted); }
+
+  form { display: grid; gap: 1rem; max-width: 30rem; }
+  label { font-weight: 700; }
+  input, textarea {
+    width: 100%; padding: .75rem; font: inherit; color: var(--white);
+    background: var(--navy-2); border: 2px solid #3A4A54; border-radius: .5rem;
+  }
+  .note { color: var(--muted); font-size: .95rem; margin-top: 1rem; }
+
+  footer { padding: 2rem 0 3rem; color: var(--muted); font-size: .95rem; border-top: 1px solid #2B3941; }
+  footer a { margin-left: .75rem; }
+
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .btn { transition: none; } }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="brand" href="#top"><img src="logo.jpg" alt="Nex Trendz logo">NEX TRENDZ</a>
+    <nav>
+      <a href="#offer">What we do</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <div class="wrap hero">
+    <div>
+      <h1>Tech trends, <em>before they trend.</em></h1>
+      <!-- EDIT: replace with what your business actually does -->
+      <p>We find the newest gadgets and tech ideas and share them in short videos you can watch in seconds.</p>
+      <a class="btn wa" href="https://wa.me/94764334464?text=Hi%20Nex%20Trendz%2C%20I%20have%20a%20question." target="_blank" rel="noopener">Chat on WhatsApp</a>
+      <a class="btn ghost" href="https://www.tiktok.com/@nextrendz3" target="_blank" rel="noopener">Follow on TikTok</a>
+    </div>
+    <img src="logo.jpg" alt="Nex Trendz">
+  </div>
+
+  <section id="offer" class="light">
+    <div class="wrap">
+      <h2>What we do</h2>
+      <!-- EDIT: change these to your real products or services -->
+      <div class="grid">
+        <div>
+          <h3>Trend videos</h3>
+          <p>Short clips on the gadgets and tech people are talking about this week.</p>
+        </div>
+        <div>
+          <h3>Product picks</h3>
+          <p>Hand-picked finds, with honest notes on what is worth buying.</p>
+        </div>
+        <div>
+          <h3>Orders and enquiries</h3>
+          <p>Message us on WhatsApp to ask about an item or place an order.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="wrap">
+      <h2>About Nex Trendz</h2>
+      <!-- EDIT: tell your story in two or three sentences -->
+      <p>Nex Trendz is a TikTok account about the next big thing in tech. This page is our home base: see what we do, follow our videos, and message us any time.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="light">
+    <div class="wrap">
+      <h2>Contact us</h2>
+      <p class="muted" style="margin-top:-.5rem;max-width:32rem">Send a message and it opens in WhatsApp, ready to send to us.</p>
+      <form id="wa-form" style="margin-top:1.5rem">
+        <div>
+          <label for="name">Your name</label>
+          <input id="name" required>
+        </div>
+        <div>
+          <label for="msg">Message</label>
+          <textarea id="msg" rows="4" required></textarea>
+        </div>
+        <button class="btn wa" type="submit">Send on WhatsApp</button>
+      </form>
+      <p class="muted">Or call or WhatsApp us directly: <a href="https://wa.me/94764334464">076 433 4464</a></p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>&copy; <span id="yr">2026</span> Nex Trendz.</span>
+    <a href="https://www.tiktok.com/@nextrendz3" target="_blank" rel="noopener">TikTok @nextrendz3</a>
+    <a href="https://wa.me/94764334464" target="_blank" rel="noopener">WhatsApp</a>
+  </div>
+</footer>
+
+<script>
+  document.getElementById("yr").textContent = new Date().getFullYear();
+  document.getElementById("wa-form").addEventListener("submit", function (e) {
+    e.preventDefault();
+    var text = "Hi Nex Trendz, I'm " + document.getElementById("name").value + ". " + document.getElementById("msg").value;
+    window.open("https://wa.me/94764334464?text=" + encodeURIComponent(text), "_blank", "noopener");
+  });
+</script>
+</body>
+</html>
